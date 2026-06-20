@@ -1,5 +1,5 @@
 homebrew-yamlstar
-===================
+=================
 
 [Homebrew](https://brew.sh/) for YAMLStar
 
@@ -9,6 +9,8 @@ homebrew-yamlstar
 Works on Linux Intel and macOS ARM.
 
 ```
+$ brew install yaml/yamlstar/yamlstar
+$ brew install yaml/yamlstar/yamlstar@0.1.5
 $ brew install yaml/yamlstar/libyamlstar
-$ brew install yaml/yamlstar/libyamlstar@0.1.4
+$ brew install yaml/yamlstar/libyamlstar@0.1.5
 ```
