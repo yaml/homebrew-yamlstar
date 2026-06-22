@@ -1,4 +1,4 @@
-class Libyamlstar < Formula
+class LibyamlstarAT019 < Formula
   desc "YAMLStar shared library"
   homepage "https://yamlstar.org"
   version "0.1.9"
