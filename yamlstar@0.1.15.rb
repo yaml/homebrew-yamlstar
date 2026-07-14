@@ -1,4 +1,4 @@
-class Yamlstar < Formula
+class YamlstarAT0115 < Formula
   desc "YAMLStar command-line YAML loader"
   homepage "https://yamlstar.org"
   version "0.1.15"
