@@ -6,11 +6,11 @@ homebrew-yamlstar
 
 ## Install YAMLStar with Homebrew
 
-Works on Linux Intel and macOS ARM.
+Works on Linux and macOS, on Intel and ARM.
 
 ```
 $ brew install yaml/yamlstar/yamlstar
-$ brew install yaml/yamlstar/yamlstar@0.1.17
+$ brew install yaml/yamlstar/yamlstar@0.1.19
 $ brew install yaml/yamlstar/libyamlstar
-$ brew install yaml/yamlstar/libyamlstar@0.1.17
+$ brew install yaml/yamlstar/libyamlstar@0.1.19
 ```
