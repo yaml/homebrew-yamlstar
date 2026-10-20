@@ -1,18 +1,18 @@
 class Libyamlstar < Formula
   desc "YAMLStar shared library"
   homepage "https://yamlstar.org"
-  version "0.1.25"
+  version "0.1.26"
   license "MIT"
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/yaml/yamlstar/releases/download/" \
         "v#{version}/libyamlstar-#{version}-linux-x64.tar.xz"
-      sha256 "e79806f2efbc23cf82fa62d75f2c17ebd920919a8e685557e02ec53203dfd10e"
+      sha256 "1ef30005b09bf90fa8b8db79e4a6b1d3fa6d809d7603a4485e83ef0516343998"
     elsif Hardware::CPU.arm?
       url "https://github.com/yaml/yamlstar/releases/download/" \
         "v#{version}/libyamlstar-#{version}-linux-aarch64.tar.xz"
-      sha256 "6d54dfe792ab9c3b11f0d1fd72dbcad3b1d013e4952322857dccef8531a7fcac"
+      sha256 "6b695ddadc9a3be797b67aa2b633d84b6fc8e6b51cd305067a147851ace73996"
     else
       odie "libyamlstar is not available for this Linux architecture"
     end
@@ -22,11 +22,11 @@ class Libyamlstar < Formula
     if Hardware::CPU.arm?
       url "https://github.com/yaml/yamlstar/releases/download/" \
         "v#{version}/libyamlstar-#{version}-macos-arm64.tar.xz"
-      sha256 "a743cc49c0dbed38a35e1ed161bb8672ee212ae338fae62a80e5729910096780"
+      sha256 "170be478e998a63acafef697ff25de81b9f4e68fb14f649de90e1a0dca5d75a4"
     elsif Hardware::CPU.intel?
       url "https://github.com/yaml/yamlstar/releases/download/" \
         "v#{version}/libyamlstar-#{version}-macos-x64.tar.xz"
-      sha256 "02c95194124e63aa741aeb7df3981feab975c0f339423150ce969df40589bfba"
+      sha256 "e4fe376282dac993a4d878f2d7f7dc4af3464cf4c6a528d0e99ce2652c19332f"
     else
       odie "libyamlstar is not available for this macOS architecture"
     end
